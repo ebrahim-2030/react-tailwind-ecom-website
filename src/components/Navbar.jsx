@@ -13,9 +13,9 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 bg-white w-full ">
+    <nav className="fixed top-0 left-0 bg-white w-full border-b ">
       {/* desctkop navigation */}
-      <div className="p-3 md:p-4 xl:px-32 border flex justify-between items-center">
+      <div className="p-3 md:px-6 w-full max-w-[1280px] mx-auto  flex justify-between items-center">
         {/* logo and brand */}
         <div className="flex items-end">
           <img className="h-8 w-8 md:h-10 md:w-10" src={logo} alt="logo" />
@@ -24,7 +24,7 @@ const Navbar = () => {
 
         {/* desctop navlinks */}
         <div className="hidden md:flex">
-          <ul className="flex items-center capitalize gap-10 text-custom-black">
+          <ul className="flex items-center capitalize gap-10 text-custom-black xl:text-lg">
             {navlinks.map((link, index) => (
               <li key={index} className="p-1">
                 <NavLink
@@ -55,7 +55,7 @@ const Navbar = () => {
         {/* cart and menu toggle */}
         <div className="flex items-center gap-5">
           <button className="relative">
-            <TiShoppingCart className="text-custom-black text-3xl md:text-4xl" />
+            <TiShoppingCart className="text-custom-blue text-3xl md:text-4xl" />
             <span className=" absolute -top-1 -right-1 bg-green-400 rounded-full text-white flex justify-center items-center  text-[11px] h-[14px] w-[14px]">
               0
             </span>
@@ -75,7 +75,7 @@ const Navbar = () => {
 
       {/* mobile navigation */}
       <div
-        className={`bg-white border-b py-10 flex flex-col items-center ${
+        className={`absolute right-0 top-14 w-full bg-white border-b py-10 flex flex-col items-center ${
           menu ? "translate-x-[0%]" : "translate-x-[100%] "
         } transition-all duration-300 `}
       >
@@ -101,7 +101,7 @@ const Navbar = () => {
         <button className="mt-6">
           <Link
             to="/auth"
-            className="px-8 py-3  bg-brand text-white  rounded-full border-opacity-60 "
+            className="px-8 py-3  bg-brand text-white  rounded-full  "
           >
             Login
           </Link>
