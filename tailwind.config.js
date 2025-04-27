@@ -6,6 +6,7 @@ export default {
       colors: {
         brand: "#fb6f92",
         "light-brand": "#ff8fab",
+        "custom-black": "#333",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
