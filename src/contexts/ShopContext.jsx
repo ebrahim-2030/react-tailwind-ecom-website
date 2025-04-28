@@ -6,7 +6,7 @@ export const ShopContext = createContext(null);
 const ShopContextProvider = (props) => {
   const products = all_products;
   return (
-    <ShopContext.Provider value={{ products }}>
+    <ShopContext.Provider value={ {products} }>
       {props.children}
     </ShopContext.Provider>
   );

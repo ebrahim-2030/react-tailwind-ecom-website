@@ -10,7 +10,7 @@ const Popular = () => {
       <h1 className="text-3xl md:text-4xl lg:text-5xl text-custom-blue text-center mb-10 font-bold ">POPULAR IN <Link to="/women" className="underline">WOMEN</Link></h1>
 
       {/* products grid */}
-      <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-4 ">
+      <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-10 ">
         {data_product.map((product) => (
           <Item key={product.id} product={product} />
         ))}

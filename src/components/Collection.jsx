@@ -12,7 +12,7 @@ const Collection = () => {
       </h1>
 
       {/* products grid */}
-      <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-4 ">
+      <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-10 ">
         {new_collection.map((product) => (
           <Item key={product.id} product={product} />
         ))}

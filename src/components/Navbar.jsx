@@ -28,7 +28,7 @@ const Navbar = () => {
             {navlinks.map((link, index) => (
               <li key={index} className="p-1">
                 <NavLink
-                  to={link.linkPath}
+                  to={`${link.linkPath}`}
                   className={({ isActive }) =>
                     isActive
                       ? "text-brand font-medium"

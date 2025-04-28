@@ -7,6 +7,10 @@ import Auth from "./pages/Auth";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+import banner_men from "./assets/banner_mens.png";
+import banner_women from "./assets/banner_women.png";
+import banner_kids from "./assets/banner_kids.png";
+
 const App = () => {
   return (
     <div>
@@ -18,9 +22,18 @@ const App = () => {
         <Routes>
           {/* define app routes */}
           <Route path="/" element={<Shop />} />
-          <Route path="/men" element={<Category category="men" />} />
-          <Route path="/women" element={<Category category="women" />} />
-          <Route path="/kids" element={<Category category="kids" />} />
+          <Route
+            path="/men"
+            element={<Category banner={banner_men} category="men" />}
+          />
+          <Route
+            path="/women"
+            element={<Category banner={banner_women} category="women" />}
+          />
+          <Route
+            path="/kids"
+            element={<Category banner={banner_kids} category="kids" />}
+          />
           <Route path="/product" element={<Product />}>
             <Route path=":productId" element={<Product />} />
           </Route>
