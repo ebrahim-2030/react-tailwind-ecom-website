@@ -1,12 +1,42 @@
-# React + Vite
+# Ecommerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant and modern e-commerce website built with **React**, **Context API**, and **Tailwind CSS**.  
+This project focuses on delivering a responsive user interface, smooth product browsing experience, and minimalistic design — ideal for showcasing products attractively.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Modern and clean UI
+- Responsive design (mobile, tablet, desktop)
+- Browse products by category
+- Detailed product pages with related product suggestions
+- Auth page 
+- Fast, lightweight, and easy to extend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Demo
+
+🔗 [View Live Demo](#)  
+
+
+---
+
+## Tech Stack
+
+- **Frontend:** React.js
+- **State Management:** Context API
+- **Styling:** Tailwind CSS
+- **Icons:** React Icons
+- **Routing:** React Router DOM
+
+---
+
+## Getting Started
+
+Clone the project:
+
+```bash
+git clone https://github.com/ebrahim-2030/react-tailwind-ecom.git
+
