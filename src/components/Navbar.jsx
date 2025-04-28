@@ -13,7 +13,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 bg-white w-full shadow-sm shadow-brand/35 ">
+    <nav className="fixed z-10 top-0 left-0 bg-white w-full shadow-sm shadow-brand/35 ">
       {/* desctkop navigation */}
       <div className="p-3 md:px-6 md:py-4 w-full max-w-[1280px] mx-auto  flex justify-between items-center">
         {/* logo and brand */}
