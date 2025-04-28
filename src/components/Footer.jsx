@@ -16,7 +16,7 @@ const Footer = () => {
         </h2>
       </div>
 
-      <ul className="flex gap-4 mt-8">
+      <ul className="text-lg flex gap-8 mt-8">
         <li className="hover:text-brand">
           <Link>Company</Link>
         </li>
@@ -33,13 +33,13 @@ const Footer = () => {
       </ul>
       <div className="flex items-center my-6 gap-4">
         
-        <Link to="/" className="border p-2">
+        <Link to="/" className="border p-2 lg:text-xl">
           <FaInstagram />
         </Link>
-        <Link to="/" className="border p-2">
+        <Link to="/" className="border p-2 lg:text-xl">
           <FaPinterestP />
         </Link>
-        <Link to="/" className="border p-2">
+        <Link to="/" className="border p-2 lg:text-xl">
           <FaWhatsapp />
         </Link>
       </div>

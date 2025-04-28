@@ -31,7 +31,7 @@ const Shop = () => {
       </section>
 
       {/* newsletter section */}
-      <section className="mt-12 md:mt-20  md:px-6  w-full max-w-[1024px] mx-auto ">
+      <section className="mt-12 md:mt-24  md:px-6  w-full max-w-[1024px] mx-auto ">
         <Newsletter />
       </section>
     </div>

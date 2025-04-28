@@ -255,7 +255,7 @@ let all_product = [
   {
     id: 28,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kidss",
+    category: "kids",
     image: p28_img,
     new_price: 85.0,
     old_price: 120.5,

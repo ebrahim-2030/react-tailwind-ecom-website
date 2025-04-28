@@ -6,7 +6,7 @@ const Newsletter = () => {
 
       {/* heading section */}
       <div className="flex flex-col  items-center">
-        <h2 className="text-3xl  lg:text-4xl text-custom-blue mb-4 font-bold text-center leading-10 ">
+        <h2 className="text-3xl px-10 md:px-0  lg:text-4xl text-custom-blue mb-4 font-bold text-center leading-10 ">
           Get Exclusive Offers On Your Email
         </h2>
         <p className="font-medium text-center">

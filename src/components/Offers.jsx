@@ -5,8 +5,8 @@ const Offers = () => {
     <div className="bg-gradient-to-b from-custom-blue/20 to-white flex flex-col md:flex-row md:justify-center items-center pt-10 pb-5 ">
       {/* offer text section */}
       <div className="flex flex-col  items-center md:items-start">
-        <h2 className="text-3xl md:text-4xl  lg:text-5xl text-custom-blue mb-4 font-bold md:w-[360px] ">
-          Exclusive Offers For You
+        <h2 className="text-3xl md:text-4xl  lg:text-5xl text-custom-blue mb-4 font-bold ">
+          Exclusive Offers <span className="md:block md:mt-4">For You</span>
         </h2>
         <p className="font-medium">ONLY ON BEST SELLERS PRODUCTS</p>
         <button className="bg-brand px-6 py-3  text-white rounded-full mt-6">

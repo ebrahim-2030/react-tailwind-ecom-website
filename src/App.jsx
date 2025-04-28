@@ -13,7 +13,7 @@ import banner_kids from "./assets/banner_kids.png";
 
 const App = () => {
   return (
-    <div>
+    <div className="text-custom-black">
       {/* router wraps the entire app */}
       <Router>
         {/* navbar component */}
