@@ -13,9 +13,9 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 bg-white w-full border-b ">
+    <nav className="fixed top-0 left-0 bg-white w-full shadow-sm shadow-brand/35 ">
       {/* desctkop navigation */}
-      <div className="p-3 md:px-6 w-full max-w-[1280px] mx-auto  flex justify-between items-center">
+      <div className="p-3 md:px-6 md:py-4 w-full max-w-[1280px] mx-auto  flex justify-between items-center">
         {/* logo and brand */}
         <div className="flex items-end">
           <img className="h-8 w-8 md:h-10 md:w-10" src={logo} alt="logo" />
