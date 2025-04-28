@@ -5,6 +5,7 @@ import { TiStarFullOutline, TiStarOutline } from "react-icons/ti";
 const DisplayProduct = ({ product }) => {
   return (
     <div className="mt-10 md:flex gap-8 lg:gap-12">
+      {/* product images section */}
       <div className=" md:w-1/2 lg:flex lg:flex-row-reverse lg:gap-2 lg:justify-start">
         <div className="flex-1">
           <img src={product.image} className="w-full " alt="" />
@@ -32,8 +33,13 @@ const DisplayProduct = ({ product }) => {
           />
         </div>
       </div>
+
+      {/* product details section */}
       <div className="md:w-1/2">
+
+      {/* product title */}
         <h2 className="mt-6 md:mt-0 text-xl lg:text-2xl xl:text-4xl font-semibold xl:leading-[50px] xl:font-bold">{product.name}</h2>
+        {/* product ratings */}
         <div className="text-xl flex items-center mt-2 text-brand">
           <TiStarFullOutline />
           <TiStarFullOutline />
@@ -41,6 +47,8 @@ const DisplayProduct = ({ product }) => {
           <TiStarFullOutline />
           <TiStarOutline />
         </div>
+
+        {/* product prices */}
         <div className="text-xl font-bold flex items-center gap-4 mt-4">
           <div className="line-through">${product.new_price}</div>
           <div className="text-red-500">${product.old_price}</div>
@@ -53,6 +61,8 @@ const DisplayProduct = ({ product }) => {
             similique, laudantium tempora. Perspiciatis, ad!
           </p>
         </div>
+
+        {/* product size selection */}
         <div className="flex items-center mt-8 gap-4">
           <div className="border px-4 py-2 bg-gray-50">S</div>
           <div className="border px-4 py-2 bg-gray-50">M</div>
@@ -60,9 +70,13 @@ const DisplayProduct = ({ product }) => {
           <div className="border px-4 py-2 bg-gray-50">XL</div>
           <div className="border px-4 py-2 bg-gray-50">XXL</div>
         </div>
+
+        {/* add to cart button */}
         <button className="px-6 py-3 bg-red-500 text-white rounded-sm mt-8">
           ADD TO CART
         </button>
+
+        {/* product category tags tags */}
         <div className="mt-8 text-sm font-medium">
           Category : <span className="capitalize">{product.category}</span>,
           T-Shirt, Crop TopTags : Modern, Latest

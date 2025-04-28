@@ -4,8 +4,13 @@ import { ShopContext } from "../contexts/ShopContext";
 import Item from "./Item";
 
 const RelatedProducts = ({ product }) => {
+  // get products from the context
   const { products } = useContext(ShopContext);
-  const relatedProducts = products.filter((p) => p.category === product.category);
+
+  // filter products based on selected category
+  const relatedProducts = products.filter(
+    (p) => p.category === product.category
+  );
   return (
     <div>
       {/* section title */}
