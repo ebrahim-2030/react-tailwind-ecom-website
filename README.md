@@ -5,6 +5,12 @@ This project focuses on delivering a responsive user interface, smooth product b
 
 ---
 
+## Live Demo
+
+🔗 [View Live Demo](https://react-tailwind-ecom-website.vercel.app/)  
+
+---
+
 ## Features
 
 - Modern and clean UI
@@ -13,12 +19,6 @@ This project focuses on delivering a responsive user interface, smooth product b
 - Detailed product pages with related product suggestions
 - Auth page 
 - Fast, lightweight, and easy to extend
-
----
-
-## Live Demo
-
-🔗 [View Live Demo](#)  
 
 
 ---
