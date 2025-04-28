@@ -6,7 +6,7 @@ const Item = ({ product }) => {
     <div className="border hover:scale-105 transition-all duration-500">
 
         {/* item image */}
-      <Link to={`/product/${product.id}`}>
+      <Link to={`/product/${product.id}`} onClick={window.scrollTo(0,0)}>
         <img src={product.image} className="w-full" alt="" />
       </Link>
       {/* product details  */}
